@@ -1,0 +1,6 @@
+# Install from the repository root with: python -m pip install -r voice/packages.txt
+SpeechRecognition==3.10.4
+PyAudio==0.2.14
+pyttsx3==2.90
+google-genai>=1.0,<2
+python-dotenv==1.0.1

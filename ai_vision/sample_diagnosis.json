@@ -1,0 +1,32 @@
+[
+  {
+    "status": "SUCCESS",
+    "fault_detected": true,
+    "fault_type": "DISCONNECTED_WIRE",
+    "location": "Jumper wire connection between switch and breadboard",
+    "possible_cause": "The jumper wire appears disconnected from the breadboard, creating an open circuit.",
+    "confidence": 0.92,
+    "bounding_box": {
+      "ymin": 0.35,
+      "xmin": 0.42,
+      "ymax": 0.58,
+      "xmax": 0.65
+    }
+  },
+  {
+    "status": "SUCCESS",
+    "fault_detected": false,
+    "fault_type": "NONE",
+    "location": "Circuit loop intact",
+    "possible_cause": "All visible jumper wire connections between ESP32, switch, 220-ohm resistor, and LED appear properly seated with no visible open connection.",
+    "confidence": 0.95
+  },
+  {
+    "status": "UNKNOWN",
+    "fault_detected": false,
+    "fault_type": "UNKNOWN",
+    "location": "Unclear / Obscured",
+    "possible_cause": "The captured image is blurry, poorly illuminated, or does not clearly display the breadboard terminals.",
+    "confidence": 0.0
+  }
+]
